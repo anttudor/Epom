@@ -450,3 +450,55 @@ article img {
 .stockManagement {
     padding-bottom: 30px;
 }
+
+/*---- STOCKS ----*/
+.unit {
+    background-color: whitesmoke;
+}
+.supplier {
+    padding-left: 20px;
+}
+.stockings {
+    text-align: center;
+}
+.stockingsTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+.stockingsTable>td, .stockingsTable>th {
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+
+.stockingsTable>tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*---- MAIN MENU FOR EVERY PAGE ----*/
+.highMenu {
+    background-color: silver;
+}
+.listMenu {
+    display: flex;
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+}
+.listMenu>li {
+
+}
+.listMenu>li>a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+/*---- MAP ----*/
+.mapWrapper {
+    margin: 0 auto;
+}
+.mapWrapper>img {
+    width:100%;
+}
