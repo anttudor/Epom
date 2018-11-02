@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../Resources/Styles/Styles.css">
+    <script type="text/javascript" async="" src="../Resources/Scripts/Main.js"></script>
+    <title>EditareStoc</title>
+</head>
+<style>
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .order {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+<body>
+<div class="main-wrapper">
+    <div class="upperLogo">
+        <img src="../Resources/Images/banner-placeholder.jpg">
+    </div>
+    <div class="highMenu">
+        <ul class="listMenu">
+            <li><a href="Homepage.html">Acasa</a></li>
+            <li><a href="Flux&Suppliers.html">Flux Activitati</a></li>
+            <li><a href="Raports&Statistics.html">Rapoarte si Statistica</a></li>
+
+            <li><a href="User.html">Utilizatori</a></li>
+
+        </ul>
+    </div>
+    <div class="order">
+        <h3> Produs 1 </h3>
+        <p class="details">Detalii produs</p>
+        <p> Vim posse tempor vocibus eu. Mundi prompta no sed, vis an quem cetero, deserunt disputationi vix cu.
+            Rebum causae similique qui ex, cu quot delectus delicata eum.
+            Nominati constituam eam id.
+            Ut ferri legimus vim, soluta hendrerit ullamcorper quo in.</p>
+        <div class="editOrder">
+            <form action="#">
+                <label for="1">Detalii stoc curent</label>
+                <input type="text" id="1" name="delivery" placeholder="Detalii stoc curent">
+
+                <label for="2">Notificare clienti</label>
+                <input type="checkbox" id="2" name="active" placeholder="Notificare clienti">
+
+                <label for="3">Rezervare numar produse</label>
+                <input type="text" id="3" name="destinatar" placeholder="Rezervare numar produse">
+
+                <label for="priority">Oprire comezi</label>
+                <select id="priority" name="Oprire comezi">
+                    <option value="Stoc < 20">Stoc < 20</option>
+                    <option value="Stoc < 10">Stoc < 10</option>
+                    <option value="Stoc < 5">Stoc < 5</option>
+                </select>
+
+                <label for="4">Adauga stoc</label>
+                <input type="text" id="4" name="addition" placeholder="Adauga stoc">
+
+                <input type="submit" value="Salveaza">
+                <button class="login100-form-btn">
+                    Salveaza
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <ul class="footer-links">
+            <li><a href="#"> Contact </a></li>
+            <li><a href="#"> Termeni&Condiții </a></li>
+            <li><a href="#"> Antonie Tudor </a></li>
+            <li><a href="#"> Dăscălescu Cezar </a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
